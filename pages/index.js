@@ -1,11 +1,5 @@
-import {
-  IconChevronDown,
-  IconChevronUp,
-  IconMailForward,
-  IconMapPins,
-} from "@tabler/icons";
 import { useState } from "react";
-import UserCard from "../components/userCard";
+import UserCard from "../components/UserCard";
 import axios from "axios";
 
 export default function Home() {
