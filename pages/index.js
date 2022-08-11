@@ -55,6 +55,7 @@ export default function Home() {
 
       {users.map((user) => (
         <UserCard
+          key={user.Name}
           Name={user.Name}
           Email={user.Email}
           Address={user.Address}
